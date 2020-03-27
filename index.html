@@ -7,7 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<!-- Hover psuedo class -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+	<!-- project css-->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<!-- font awsome-->
 	<script src="https://kit.fontawesome.com/169cf7da54.js" crossorigin="anonymous"></script>
 	<title>Mike Green</title>
@@ -15,12 +19,112 @@
 
 <body>
 	<header>
+		<div class="row no-gutters">
+			<a href="index.html" class="col-md-4 logo"></a>
+
+			<div class="col-md-8">
+				<div class="row bg-color-name-title">
+					<div class="col heading">
+						<h1 class="name">Mike Green</h1>
+						<h2 class="title">Application Support Analyst</h2>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="col">
+						<ul id="nav" class="list-inline menucontainer">
+							<li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+								<a href="#"
+									class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span> Home</span></a>
+							</li>
+							<li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
+								<a href="#"
+									class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span> Resume</span></a>
+							</li>
+							<li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+								<a href="#"
+									class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span> Contact</span></a>
+							</li>
+							<li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
+								<a href="#"
+									class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span> Download CV</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
 	</header>
 
 	<section>
+		Hello
 	</section>
-    
-	<footer>
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">Application support and developer in COBOL,perl,korn shell and SQL </p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">Need a printable CV?</p>
+                <a href="#" target="_blank" class="cv-pdf" >
+                <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Social</h5>
+                 <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <!-- Dont have Twitter account 
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    -->
+                    <li class="list-inline-item">
+                        <a target="_blank" href="www.linkedin.com/in/mike-green-4323a929">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <!-- Dont have Pinterest account 
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    -->
+                    <!-- Don't have Instagram account 
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    -->
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+			</div>
+		</div>
 	</footer>
 
 </body>
