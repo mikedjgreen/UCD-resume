@@ -10,11 +10,14 @@
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	<!-- Hover psuedo class -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
-	<!-- project css-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
 	<!-- font awsome-->
 	<script src="https://kit.fontawesome.com/169cf7da54.js" crossorigin="anonymous"></script>
-	<title>Mike Green</title>
+
+	<!-- project css-->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	<title>Contact Mike Green</title>
 </head>
 
 <body>
@@ -33,19 +36,19 @@
 					<div class="col">
 						<ul id="nav" class="list-inline menucontainer">
 							<li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-								<a href="#"
+								<a href="index.html"
 									class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span> Home</span></a>
 							</li>
 							<li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-								<a href="#"
+								<a href="resume.html"
 									class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span> Resume</span></a>
 							</li>
 							<li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-								<a href="#"
+								<a href="contact.html"
 									class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span> Contact</span></a>
 							</li>
 							<li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-								<a href="#"
+								<a href="assets/cv/MikeGreen_CV.pdf" target="_blank"
 									class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span> Download CV</span></a>
 							</li>
 						</ul>
@@ -59,34 +62,51 @@
 
 	</header>
 
-	<section>
-		Hello
+	<section class="container-fluid">
+		<div class="row bg-color-contact">
+			<div class="col">
+				<h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+				<h5 class="uppercase text-center">Let's work on this together.</h5>
+				<div class="center-form">
+					<form>
+                       <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">Application support and developer in COBOL,perl,korn shell and SQL </p>
+				<p class="inline-block">Application support and developer in COBOL,perl,korn shell and SQL </p>
 			</div>
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Download</h5>
-                <p class="inline-block">Need a printable CV?</p>
-                <a href="#" target="_blank" class="cv-pdf" >
-                <i class="fa fa-download" aria-hidden="true"></i>
-                </a>
+				<p class="inline-block">Need a printable CV?</p>
+				<a href="assets/cv/MikeGreen_CV.pdf" target="_blank" class="cv-pdf">
+					<i class="fa fa-download" aria-hidden="true"></i>
+				</a>
 
 			</div>
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Social</h5>
-                 <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <!-- Dont have Twitter account 
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<!-- Dont have Twitter account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -94,13 +114,13 @@
                         </a>
                     </li>
                     -->
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.linkedin.com/in/mike-green-4323a929">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <!-- Dont have Pinterest account 
+					<li class="list-inline-item">
+						<a target="_blank" href="www.linkedin.com/in/mike-green-4323a929">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+					<!-- Dont have Pinterest account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
@@ -108,7 +128,7 @@
                         </a>
                     </li>
                     -->
-                    <!-- Don't have Instagram account 
+					<!-- Don't have Instagram account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -116,13 +136,13 @@
                         </a>
                     </li>
                     -->
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</footer>
