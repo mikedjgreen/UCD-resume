@@ -10,10 +10,11 @@
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	<!-- Hover psuedo class -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <!-- font awsome-->
+	<script src="https://kit.fontawesome.com/169cf7da54.js" crossorigin="anonymous"></script>
 	<!-- project css-->
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<!-- font awsome-->
-	<script src="https://kit.fontawesome.com/169cf7da54.js" crossorigin="anonymous"></script>
+
 	<title>Mike Green</title>
 </head>
 
@@ -59,34 +60,109 @@
 
 	</header>
 
-	<section>
-		Hello
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 bg-color-personal-info section-column">
+				<div class="row">
+					<div class="col-12">
+						<h3 class="section-heading uppercase">Personal Info</h3>
+					</div>
+				</div>
+				<div class="personal-info-item">
+					<div class="key">
+                    <p class="uppercase">Name:</p>
+                    </div>
+					<div class="value">
+                    <p>Mike Green</p>
+                    </div>
+				</div>
+                		<div class="personal-info-item">
+					<div class="key">
+                    <p class="uppercase">Email:</p>
+                    </div>
+					<div class="value">
+                    <p>m.d.j.green@ntlworld.com</p>
+                    </div>
+				</div>
+			</div>
+			<div class="col-md-8 bg-color-three-reasons section-column">
+				<div class="row">
+					<div class="col">
+						<h3 class="section-heading uppercase">About Me</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+						<div class="row">
+							<div class="col-2">
+								<i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+							</div>
+							<div class="col-10">
+								<h4 class="three-reasons-heading uppercase">What do I do?</h4>
+								<p>
+									I'm a skilled Jack-of-all-trades with a wealth of diverse life and technical
+									experience that I bring to every project.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+						<div class="row">
+							<div class="col-2">
+								<i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+							</div>
+							<div class="col-10">
+								<h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+								<p>
+									I ensure the application has all the checkpoints required to maintain reliable
+									service.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+						<div class="row">
+							<div class="col-2">
+								<i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+							</div>
+							<div class="col-10">
+								<h4 class="three-reasons-heading uppercase">Why hire me?</h4>
+								<p>
+									I have a long working life of 24*7 support for mission critical applications.
+									I can develop procedures and projects that ensure business as usual.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">Application support and developer in COBOL,perl,korn shell and SQL </p>
+				<p class="inline-block">Application support and developer in COBOL,perl,korn shell and SQL </p>
 			</div>
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Download</h5>
-                <p class="inline-block">Need a printable CV?</p>
-                <a href="#" target="_blank" class="cv-pdf" >
-                <i class="fa fa-download" aria-hidden="true"></i>
-                </a>
+				<p class="inline-block">Need a printable CV?</p>
+				<a href="#" target="_blank" class="cv-pdf">
+					<i class="fa fa-download" aria-hidden="true"></i>
+				</a>
 
 			</div>
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Social</h5>
-                 <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <!-- Dont have Twitter account 
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<!-- Dont have Twitter account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -94,13 +170,13 @@
                         </a>
                     </li>
                     -->
-                    <li class="list-inline-item">
-                        <a target="_blank" href="www.linkedin.com/in/mike-green-4323a929">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <!-- Dont have Pinterest account 
+					<li class="list-inline-item">
+						<a target="_blank" href="www.linkedin.com/in/mike-green-4323a929">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+					<!-- Dont have Pinterest account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
@@ -108,7 +184,7 @@
                         </a>
                     </li>
                     -->
-                    <!-- Don't have Instagram account 
+					<!-- Don't have Instagram account 
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -116,13 +192,13 @@
                         </a>
                     </li>
                     -->
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</footer>
