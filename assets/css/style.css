@@ -350,6 +350,12 @@ button[type="submit"]{
     margin-bottom: 10px;
 }
 
+/* ----------------------------------------Interests ---*/
+div#map {
+    min-height: 360px;
+}
+
+
 /* ----------------------------------------Media Query ---*/
 
 @media(min-width:992px){
