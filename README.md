@@ -13,7 +13,11 @@ Google documentation for using API: [Google Maps](https://developers.google.com/
 * Reference Google JS library for working with Google maps.
 * Rendering the map. zoom parameter  gets larger value to zoom in to area. lat/lng coordinates
 * Adding markers to the map, in clusters.
-* Separating javascript(s) from html page interests.html.
+
+## GitHub API
+
+* prompting client for GitHub username
+* using js fetchGitHubInformation function to retrieve repositories from GitHub for username
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
