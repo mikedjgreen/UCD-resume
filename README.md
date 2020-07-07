@@ -22,14 +22,14 @@ Google documentation for using API: [Google Maps](https://developers.google.com/
 * rendering user data using function userInformationHTML(user)
 * rendering repo data using function repoInformationHTML(repos)
 
-### NB
+### NB  API Throttling
 Found I got an error retrieving GitHub API data see [GitHub doc](https://developer.github.com/v3/#rate-limiting)
 
 Within the terminal , used command :" curl -i https://api.github.com/users/octocat" to inspect error.
 
 X-Ratelimit-Limit: 60   means 'The maximum number of requests you're permitted to make per hour.'
 
-
+* amended error capture of 403 (Forbidden) on fetchGitHubInformation function.
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
