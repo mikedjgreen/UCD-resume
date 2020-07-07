@@ -23,7 +23,7 @@ Google documentation for using API: [Google Maps](https://developers.google.com/
 * rendering repo data using function repoInformationHTML(repos)
 
 ### NB
-Found I got an error retrieving GitHub API data see [GitHub doc] (https://developer.github.com/v3/#rate-limiting)
+Found I got an error retrieving GitHub API data see [GitHub doc](https://developer.github.com/v3/#rate-limiting)
 
 Within the terminal , used command :" curl -i https://api.github.com/users/octocat" to inspect error.
 

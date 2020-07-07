@@ -41,6 +41,9 @@ function repoInformationHTML(repos) {
 }
 
 function fetchGitHubInformation(event) {
+/* initialise display divs, clearing down older github queries */
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
 /* first check that a github username has been entered, if not then return */
     var username = $("#gh-username").val();
     if (!username) {
@@ -63,7 +66,7 @@ also retrieving repository information for the username  */
             var userData = firstResponse[0];
             var repoData = secondResponse[0];
             $("#gh-user-data").html(userInformationHTML(userData));
-        /*    $("#gh-repo-data").html(repoInformationHTML(repoData)); */
+            $("#gh-repo-data").html(repoInformationHTML(repoData)); 
             
         },
         function(errorResponse) {
@@ -77,3 +80,6 @@ also retrieving repository information for the username  */
             }
         });
 }
+
+/* When page is loaded the default username user details and repositories are displayed */
+$(document).ready(fetchGitHubInformation);
