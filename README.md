@@ -31,6 +31,14 @@ X-Ratelimit-Limit: 60   means 'The maximum number of requests you're permitted t
 
 * amended error capture of 403 (Forbidden) on fetchGitHubInformation function.
 
+
+## Email Service
+
+* Signing up [EmailJS](https://www.emailjs.com/)
+* email template id 'mikeg' to gmail account
+* use emailjs sdk to generate
+* amend contact.html to call js script assets/js/sendEmail.js
+
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
 `python3 -m http.server`
